@@ -1,5 +1,5 @@
 
-Console.WriteLine("Задание №1");
+Console.WriteLine("Задание №1: вычисление факториала");
 Console.Write("Введите число n: ");
 int n = int.Parse(Console.ReadLine());
 int f = 1;
@@ -11,7 +11,7 @@ Console.WriteLine($"Факториал числа {n} равен {f}");
 
 
 
-Console.WriteLine("Задание №2");
+Console.WriteLine("Задание №2: вычисление выражения");
 Console.Write("Введите число x: ");
 
 double x = double.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ Console.WriteLine("Ответ на выражение: " + A);
 
 
 
-Console.WriteLine("Задание №3");
+Console.WriteLine("Задание №3: вычисление чисел Фибоначчи");
 Console.Write("Введите число n: ");
 int n1 = int.Parse(Console.ReadLine());
 Console.WriteLine("0");
@@ -49,8 +49,7 @@ Console.WriteLine("Конец последовательности");
 
 
 
-Console.WriteLine("Задание №4");
-Console.WriteLine("Вычисление e^(x-1) с помощью ряда Тейлора");
+Console.WriteLine("Задание №4: вычисление e^(x-1) с помощью ряда Тейлора");
 
 Console.Write("Введите x: ");
 double x1 = double.Parse(Console.ReadLine());

@@ -20,6 +20,11 @@ if (x == 5)
     Console.WriteLine("Ошибка: Деление на ноль");
     return;
 }
+if (x < 5)
+{
+    Console.WriteLine("Ошибка: Логарифм от отрицательного числа");
+    return;
+}
 
 double A = Math.Sqrt(Math.Log(x / (x - 5))) + (x + Math.Pow(Math.E, x - 1)) - Math.Pow(Math.Tan(x / 2),2);
 
@@ -62,7 +67,7 @@ double x11 = 1;
 
 for (int k = 1; k < m; k++)
 {
-    x11 *= x / k; 
+    x11 *= x1 / k; 
     sum += x11;
 }
 
